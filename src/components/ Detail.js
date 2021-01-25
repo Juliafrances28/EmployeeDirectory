@@ -6,13 +6,13 @@ function Detail(props) {
       <img
         alt={props.title}
         className="img-fluid"
-        src={props.src}
+        src={props.listE.picture.medium}
         style={{ margin: "0 auto" }}
       />
-      <h3>Name(s): {props.name}</h3>
-      <h3>Job: {props.job}</h3>
-      <h3>email: {props.email}</h3>
-      <h3>phone: {props.phone}</h3>
+      <h3>Name(s): {props.listE.name.firstname}</h3>
+      <h3>Name(s): {props.listE.name.lastname}</h3>
+      <h3>email: {props.listE.email}</h3>
+      <h3>phone: {props.listE.phone}</h3>
     </div>
   );
 }
