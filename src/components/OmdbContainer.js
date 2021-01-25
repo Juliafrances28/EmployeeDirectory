@@ -14,7 +14,7 @@ class OmdbContainer extends Component {
     search: "",
   };
 
-  // When this component mounts, search for the employees 
+  // When this component mounts, search for the employees
   componentDidMount() {
     this.loadRandomEmp("John");
   }
@@ -23,6 +23,13 @@ class OmdbContainer extends Component {
     API.getRandomUser(query)
       .then((res) => this.setState({ emplist: res.data }))
       .catch((err) => console.log(err));
+  };
+
+  emplist = (id) => {
+    // Filter this.state.emplist for employees
+    const employees = this.state.employees.filter(employee);
+    // Set this.state.employees equal to the new employee array
+    this.setState({ employees });
   };
 
   handleInputChange = (event) => {
@@ -45,13 +52,15 @@ class OmdbContainer extends Component {
         <Row>
           <Col size="md-8">
             <Card
-              heading={this.state.result.Title || "Search for a particular employee"}
+              heading={
+                this.state.result.Title || "Search for a particular employee"
+              }
             >
               {this.state.result.Title ? (
                 <Detail
                   title={this.state.result.Title}
                   src={this.state.result.picture}
-                 Name={this.state.result.name}
+                  Name={this.state.result.name}
                   job={this.state.result.Job}
                   email={this.state.result.Email}
                 />
