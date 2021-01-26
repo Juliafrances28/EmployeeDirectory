@@ -51,54 +51,21 @@ class OmdbContainer extends Component {
   };
 
   render() {
-    // const employee = this.state.result
-    //   .filter((data) => {
-    //     if (this.state.search == null) {
-    //       return data;
-    //     } else if (
-    //       data.name.firstname
-    //         .toLowerCase()
-    //         .includes(this.state.search.toLowerCase())
-    //     ) {
-    //       return data;
-    //     }
-    //   })
-    //   .map((data) => {
-    //     return (
-    //       <Container>
-    //         <Row>
-    //           <Col size="md-8">
-    //             <Card
-    //               heading={
-    //                 this.state.result.Title ||
-    //                 "Search for a particular employee"
-    //               }
-    //             >
-    //               {this.state.result.Title ? (
-    //                 <Detail listE={this.state.result.results} />
-    //               ) : (
-    //                 // src={this.state.result.picture}
-    //                 // Name={this.state.result.name}
-    //                 // job={this.state.result.Job}
-    //                 // email={this.state.result.Email}
-
-    //                 <h3>No Results to Display</h3>
-    //               )}
-    //             </Card>
-    //           </Col>
-    //           <Col size="md-4">
-    //             <Card heading="Search">
-    //               <SearchForm
-    //                 value={this.state.search}
-    //                 handleInputChange={this.handleInputChange}
-    //                 handleFormSubmit={this.handleFormSubmit}
-    //               />
-    //             </Card>
-    //           </Col>
-    //         </Row>
-    //       </Container>
-    //     );
-    //   });
+    const employees = this.state.result
+      .filter((data) => {
+        if (this.state.search == null) {
+          return data;
+        } else if (
+          data.name.first
+            .toLowerCase()
+            .includes(this.state.search.toLowerCase())
+        ) {
+          return data;
+        }
+      })
+      .map((data) => {
+        return <Detail listE={data} />
+      });
       
     return (
       <Container>
@@ -109,13 +76,11 @@ class OmdbContainer extends Component {
                 this.state.result.Title || "Search for a particular employee"
               }
             >
-              {this.state.result.Title ? (
-                <Detail listE={this.state.result.results} />
-              ) : (
-                // src={this.state.result.picture}
-                // Name={this.state.result.name}
-                // job={this.state.result.Job}
-                // email={this.state.result.Email}
+              {employees.length > 0 ? (
+                employees 
+    
+              ) : ( 
+         
 
                 <h3>No Results to Display</h3>
               )}
