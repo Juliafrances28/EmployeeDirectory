@@ -11,7 +11,7 @@ class OmdbContainer extends Component {
   state = {
     result: [],
     emplist: [],
-    search: null,
+    search: "",
   };
 
   // When this component mounts, search for the employees
@@ -53,7 +53,7 @@ class OmdbContainer extends Component {
   render() {
     const employees = this.state.result
       .filter((data) => {
-        if (this.state.search == null) {
+        if (this.state.search == "") {
           return data;
         } else if (
           data.name.first
@@ -64,9 +64,9 @@ class OmdbContainer extends Component {
         }
       })
       .map((data) => {
-        return <Detail listE={data} />
+        return <Detail listE={data} />;
       });
-      
+
     return (
       <Container>
         <Row>
@@ -77,11 +77,8 @@ class OmdbContainer extends Component {
               }
             >
               {employees.length > 0 ? (
-                employees 
-    
-              ) : ( 
-         
-
+                employees
+              ) : (
                 <h3>No Results to Display</h3>
               )}
             </Card>

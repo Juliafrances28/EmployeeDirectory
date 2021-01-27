@@ -9,8 +9,9 @@ function Detail(props) {
         src={props.listE.picture.medium}
         style={{ margin: "0 auto" }}
       />
-      <h3>Name(s): {props.listE.name.firstname}</h3>
-      <h3>Name(s): {props.listE.name.lastname}</h3>
+
+      <h3>First name: {props.listE.name.first}</h3>
+      <h3>Last name: {props.listE.name.last}</h3>
       <h3>email: {props.listE.email}</h3>
       <h3>phone: {props.listE.phone}</h3>
     </div>
