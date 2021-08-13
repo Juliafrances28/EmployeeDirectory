@@ -49,8 +49,7 @@ https://github.com/Juliafrances28/EmployeeDirectory
 ## Deployed link
 https://juliafrances28.github.io/EmployeeDirectory/
 
+<img width="1303" alt="Screen Shot 2021-08-13 at 6 52 16 PM" src="https://user-images.githubusercontent.com/67694214/129425251-8847ff08-211c-4856-92f6-c4dbc46c65e4.png">
 
-<img width="367" alt="Search for an employee " src="https://user-images.githubusercontent.com/67694214/129425100-63b5a57a-067c-4bd1-a6df-4c8b734af950.png">
-<img width="703" alt="Employee resutls " src="https://user-images.githubusercontent.com/67694214/129425103-38407fd9-edab-411c-bb6a-0e24e91d56df.png">
 
 
