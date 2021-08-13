@@ -1,7 +1,7 @@
 # EmployeeDirectory 
 
-React Portfolio
-Table of Contents
+
+## Table of Contents
 
  * [Description](#Description)
  * [Instructions](#Instructions)
