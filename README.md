@@ -15,38 +15,38 @@ Table of Contents
  * [Deployed Link](#Deployedlink)
  
 
-Description
+## Description
 To create a data base of employee at the company. Allowing a user to filter the employee by name. 
 
-Installation
+## Installation
 First, npm create-react-app my-app Then install the following: npm start, npm run build 
 
-Usage
+## Usage
 Allowing those who work there to search for a particular employee and get there basic information. 
 
 
-license
+## license
 MIT ![badge](https://img.shields.io/badge/License-MIT-yellow
 
-Contributed
+## Contributed
 It was a solo project.
 
-Tested
+## Tested
 run npm start 
 
-Questions
+## Questions
 Please reach out
 
-Username
+## Username
 juliafrances28
 
-Email
+## Email
 julia.horan28@gmail.com
 
-Repo link
+## Repo link
 https://github.com/Juliafrances28/EmployeeDirectory
 
-Deployed link
+## Deployed link
 https://juliafrances28.github.io/EmployeeDirectory/
 
 
