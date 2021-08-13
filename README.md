@@ -49,7 +49,7 @@ https://github.com/Juliafrances28/EmployeeDirectory
 ## Deployed link
 https://juliafrances28.github.io/EmployeeDirectory/
 
-<img width="1303" alt="Screen Shot 2021-08-13 at 6 52 16 PM" src="https://user-images.githubusercontent.com/67694214/129425251-8847ff08-211c-4856-92f6-c4dbc46c65e4.png">
+<img width="1213" alt="Screen Shot 2021-08-13 at 6 55 47 PM" src="https://user-images.githubusercontent.com/67694214/129425447-407b9c7b-0d81-4cc6-9bee-74909ddd0e73.png">
 
 
 
