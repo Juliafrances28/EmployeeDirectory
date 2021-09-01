@@ -16,7 +16,7 @@
  
 
 ## Description
-To create a data base of employee at the company. Allowing a user to filter the employee by name. 
+To create a database of employee at the company. Allowing a user to filter the employee by name. 
 
 ## Installation
 First, npm create-react-app my-app Then install the following: npm start, npm run build 
