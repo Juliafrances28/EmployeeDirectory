@@ -7,10 +7,8 @@
  * [Instructions](#Instructions)
  * [Usage](#Usage)
  * [Installation](#Installation)
- * [Questions](#Questions)
  * [License](#License)
  * [Email](#Email)
- * [Username](#Username)
  * [Repo Link](#Repolink)
  * [Deployed Link](#Deployedlink)
  
@@ -33,12 +31,6 @@ It was a solo project.
 
 ## Tested
 run npm start 
-
-## Questions
-Please reach out
-
-## Username
-juliafrances28
 
 ## Email
 julia.horan28@gmail.com
